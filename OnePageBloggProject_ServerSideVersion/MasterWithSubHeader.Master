@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterWithSubHeader.Master.cs" Inherits="OnePageBloggProject_ServerSideVersion.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href="styles/mainStyle.css" rel="stylesheet" />
+    <link href="styles/masterSubHeader.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <header>
+                <h1>
+                    <span>Just</span> Blogging
+                </h1>
+                <nav id="main-nav">
+                    <li><a href="postList.aspx">Blogg</a></li>
+                    <li><a href="about.aspx">About</a></li>
+                    <li><a href="contact.aspx">Contact</a></li>
+                </nav>
+            </header>
+
+            <div class="head-img-wrapper">
+                <p class="welcoming-text">
+                    Welcome to my exiting project about React.Js. Hopfully you will notice the difference between the two sites i've built with different technologies.
+                </p>
+                <p class="welcoming-text">
+                    Let's start this thing!
+                </p>
+            </div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+    </form>
+</body>
+</html>

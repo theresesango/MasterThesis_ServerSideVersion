@@ -1,0 +1,92 @@
+﻿.colum-wrapper {
+    clear: both;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+}
+
+.colum-wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.colum-wrapper .sidebar, .container {
+    display: inline-block;
+    float: left;
+    
+}
+
+.colum-wrapper .container {
+    border: none;
+    width: 70%;
+    border-left: 1px dotted #515151;
+    padding-left: 30px;
+}
+
+.colum-wrapper .sidebar {
+    width: 25%;
+}
+
+.colum-wrapper .sidebar h3 {
+    font-size: 15px;
+}
+
+.colum-wrapper .sidebar img {
+    width: 130px;
+    margin: 15px 0 5px 0;
+}
+
+.colum-wrapper .sidebar p {
+    font-size: 9px;
+    text-transform: none;
+    line-height: 1.2em;
+    padding-right: 30px;
+}
+
+.colum-wrapper .sidebar p span {
+    color: #e3007b;
+}
+
+.post-header-wrapp {
+    border-bottom: 1px dotted #515151;
+    min-height: 50px;
+}
+
+    .post-header-wrapp .triangle {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 25px 25px 0 0;
+        border-color: #737373 transparent transparent transparent;
+        position: absolute;
+    }
+
+    .post-header-wrapp h2 {
+        vertical-align: top;
+        padding-left: 45px;
+        font-size: 21px;
+        color: #e3007b;
+        font-weight: 700;
+        padding-right: 135px;
+    }
+
+.dotted-line {
+    border: none;
+    border-bottom: 1.3px dotted #515151;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.post-content {
+    border-top: 1.3px dotted #515151;
+}
+
+    .post-content p {
+        margin: 20px 0 30px 0;
+        font-size: 14px;
+        line-height: 1.4em;
+        text-transform: none;
+    }
+
+
